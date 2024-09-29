@@ -37,6 +37,9 @@ figure, imshow(new);  % Display the thresholded image
 ### Histogram Equalization
 This script performs histogram equalization on a grayscale image to enhance contrast.
 
+#### Code:
+
+```matlab
 clear all, clc
 
 I = imread('tree.jpg');       % Read the image
@@ -107,6 +110,10 @@ subplot(2, 2, 4); stem(eq_hist);                       % Equalized histogram
 ### Laplace of Gaussian (LoG) Edge Detection
 
 This script performs edge detection using the Laplacian of Gaussian (LoG) filter. The LoG combines Gaussian smoothing and the Laplacian operator to detect edges based on rapid intensity changes.
+
+#### Code:
+
+```matlab
 
 clc;
 clear all;
