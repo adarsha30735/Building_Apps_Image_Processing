@@ -19,13 +19,19 @@ This MATLAB script provides basic image processing functionalities such as thres
 
 The script applies a threshold to convert a grayscale image into a binary image. 
 
+![Binary Transform Result](binary.png)
+
 ### Histogram Equalization
 
 The script performs histogram equalization on a grayscale image to enhance contrast by redistributing intensity values.
 
+![Histogram Equalization Result](hist.png)
+
 ### Laplace of Gaussian (LoG) Edge Detection
 
 The script uses the Laplace of Gaussian filter to detect edges based on intensity changes.
+
+![Histogram Equalization Result](log.png)
 
 #### Full Code:
 
